@@ -14,6 +14,7 @@ Este repositório contém o código fonte do meu site pessoal. Sou o Leandro, um
 **Recursos:**
 
 * **Site:** [Link para o seu site]
+* **Figma:** [Link para o projeto no Figma]
 * **LinkedIn:** [Seu perfil no LinkedIn]
 
 **Sobre o Projeto:**
