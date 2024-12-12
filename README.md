@@ -5,7 +5,7 @@ Neste portfólio pessoal, apresento um pouco sobre mim e minhas soluções criat
 
 **Olá, mundo!**
 
-Este repositório contém o código fonte do meu site pessoal. Sou o Leandro, um(a) desenvolvedor apaixonado por tecnologia. 
+Este repositório contém o código fonte do meu site pessoal. Sou o Leandro, um desenvolvedor apaixonado por tecnologia. 
 
 **Tecnologias Utilizadas:**
 
