@@ -4,3 +4,13 @@
     box-sizing: border-box;
 }
 
+header {
+    height: 10vh;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+}
+
