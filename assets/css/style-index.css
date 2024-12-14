@@ -14,7 +14,23 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     height: 5vh;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 12vw;
+    font-size: 16px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 main {
@@ -22,11 +38,44 @@ main {
     flex-direction: row;
     align-items: center;
     height: 95vh;
+    gap: 30px;
 }
 
 section {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+    gap: 20px;   
+}
+
+section h1 {
+    font-size: 35px;
+}
+
+section p {
+    font-size: 20px;
+}
+
+section div {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+    justify-content: center;
+}
+
+section a {
+    height: 6vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 8px;
 }
 
 div {
@@ -37,4 +86,5 @@ div {
 img {
     height: 400px;
     width: 400px;
+    border-radius: 16px;
 }
