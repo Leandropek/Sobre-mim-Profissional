@@ -58,6 +58,7 @@ section p {
 footer {
     height: 5vh;
     text-align: center;
+    font-size: 16px;
 }
 
 img {
