@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.cabecalho{
+    padding: 3% 0 0 100px;
+}
+
+.cabecalho-menu {
+    display: flex;
+
+    gap: 40px;
+}
+
+.cabecalho-menu-link {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+
+/*Principal */
+
+main {
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 100px;
+}
+
+/* Lado esquerdo da tela */
+
+.esquerda-tela {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Conteudo */
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;   
+}
+
+.titulo {
+    font-size: 32px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 600;
+}
+
+.paragrafo {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+strong {
+    color: blueviolet;
+}
+
+/* Botoes */
+
+.subtitulo-botoes{
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 2px solid #8a2be2;
+    width: 200px;
+    padding: 10px 0;
+    color: white;    
+    text-decoration: none;
+    text-align: center; 
+    font-family: "Montserrat", sans-serif;
+    font-weight:600;
+    border-radius: 8px;
+}
+
+.botao:hover {
+    background-color: #292929;
+}
+
+.botao img {
+    height: 20px;
+    width: 20px;
+}
+
+
+/* Lado direito da tela */
+
+.direita-tela {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Imagem */
+
+img {
+    height: 472px;
+    width: 375px;
+    border-radius: 16px;
+}
+
+
+/* Footer */
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    color: black;
+    height: 32px;
+}
+
+.texto-rodape {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}

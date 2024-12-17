@@ -4,28 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="assets/css/style-index.css">
+    <link rel="stylesheet" href="css/style-index.css">
 </head>
 <body>
-    <header>
-        <div class="logo">Logo</div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="Sobre-mim.html">Sobre mim</a>
+    <header class="cabecalho">
+        <nav class="cabecalho-menu">
+            <a href="index.html" class="cabecalho-menu-link">Home</a>
+            <a href="About.html" class="cabecalho-menu-link">Sobre mim</a>
         </nav>
     </header>
-    <main>
-        <section>
-            <h1>Eleve seu negócio digital a outro nível <strong>com um Front-End de qualidade</strong></h1>
-            <p>Olá, mundo! Sou Leandro. A programação é minha paixão e a Engenharia de Software, minha formação. Como desenvolvedor fullstack, adoro construir soluções completas, desde a interface até a lógica do sistema. Acredito que a tecnologia tem o poder de transformar vidas e estou sempre buscando novos desafios para aprimorar minhas habilidades.</p>
-            <p>Gosto muito de código limpo, arquitetura bem estruturada e, claro, de criar coisas legais. Quer bater um papo sobre seu próximo projeto? <strong>Tô à disposição!</strong></p>
 
-            <div>
-                <a href="https://github.com/Leandropek">Github</a>
-                <a href="">LinkedIn</a>
-            </div>
+    <main>
+        <section class="esquerda-tela">
+            <section class="conteudo">
+                <h1 class="titulo">Eleve seu negócio digital a outro nível <strong>com um Front-End de qualidade</strong></h1>
+
+                <p class="paragrafo">Sou Leandro, <strong>desenvolvedor fullstack</strong> formado em Engenharia de Software.</p>
+
+                <p class="paragrafo">Apaixonado por tecnologia, busco criar soluções completas e inovadoras, com foco em código limpo e arquitetura eficiente.</p>
+
+                <div class="botoes">
+                    <h2 class="subtitulo-botoes">Acesse minhas redes:</h2>
+                    <a href="#" class="botao"><img src="assets/img/icones/github.png" alt="">Github</a>
+                    <a href="#" class="botao"><img src="assets/img/icones/linkedin.png" alt="">LinkedIn</a>
+                    <a href="#" class="botao"><img src="assets/img/icones/twitch.png" alt="">Twitch</a>
+                </div>
+            </section>            
         </section>
-        <img src="assets/img/pele.jpg" alt="">
-    </main>    
+
+        <section class="direita-tela">
+            <img src="assets/img/homem-fundo-branco.webp" alt="">
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p class="texto-rodape">Desenvolvido por @Leandro</p>
+    </footer>
 </body>
 </html>
