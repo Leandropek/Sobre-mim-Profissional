@@ -1,56 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --cor-primaria: #181717;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #8a2be2;
+    --cor-hover: #3d3c3c;
+
+    --font-size-primaria: 32px;
+    --font-size-secundaria: 20px;
+    --font-size-terciaria: 16px;
+
+    --font-family-primaria: "Krona One", sans-serif;
+    --font-family-secundaria: "Montserrat", sans-serif;
+
+    --font-weight-primaria: 600;
+    --font-weight-secundaria: 400;
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-color: black;
-    color: white;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
 }
 
 .cabecalho{
-    padding: 3% 0 0 100px;
+    padding: 1vh 0 0 100px;
 }
 
 .cabecalho-menu {
     display: flex;
-
     gap: 40px;
 }
 
 .cabecalho-menu-link {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    color: blueviolet;
+    font-family: var(--font-family-secundaria);
+    font-weight: var(--font-weight-primaria);
+    font-size: var(--font-size-secundaria);
+    color: var(--cor-terciaria);
+
     text-decoration: none;
 }
 
-
-/*Principal */
-
 main {
-    height: 90vh;
+    height: 92vh;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
     margin: 0 100px;
+    gap: 30px;
 }
-
-/* Lado esquerdo da tela */
 
 .esquerda-tela {
-    width: 50vw;
+    width: 70vw;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 }
-
-/* Conteudo */
 
 .conteudo {
     display: flex;
@@ -59,27 +69,25 @@ main {
 }
 
 .titulo {
-    font-size: 32px;
-    font-family: "Krona One", sans-serif;
-    font-weight: 600;
+    font-size: var(--font-size-primaria);
+    font-family: var(--font-family-primaria);
+    font-weight: var(--font-weight-primaria);    
 }
 
 .paragrafo {
-    font-size: 16px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
+    font-size: var(--font-size-terciaria);
+    font-family: var(--font-family-secundaria);
+    font-weight: var(--font-weight-secundaria);
 }
 
 strong {
-    color: blueviolet;
+    color: var(--cor-terciaria);
 }
 
-/* Botoes */
-
 .subtitulo-botoes{
-    font-family: "Krona One", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
+    font-family: var(--font-family-secundaria);
+    font-weight: var(--font-weight-primaria);
+    font-size: var(--font-size-secundaria);
 }
 
 .botoes {
@@ -96,19 +104,19 @@ strong {
     align-items: center;
     justify-content: center;
     gap: 5px;
-    border: 2px solid #8a2be2;
+    border: 2px solid var(--cor-terciaria);
     width: 200px;
     padding: 10px 0;
-    color: white;    
+    color: var(--cor-secundaria);    
     text-decoration: none;
     text-align: center; 
-    font-family: "Montserrat", sans-serif;
-    font-weight:600;
+    font-family: var(--font-family-secundaria);
+    font-weight: var(--font-weight-secundaria);
     border-radius: 8px;
 }
 
 .botao:hover {
-    background-color: #292929;
+    background-color: var(--cor-hover);
 }
 
 .botao img {
@@ -116,17 +124,13 @@ strong {
     width: 20px;
 }
 
-
-/* Lado direito da tela */
-
 .direita-tela {
-    width: 50vw;
+    width: 30vw;
     display: flex;
-    flex-direction: column;
+    justify-content: flex-end;
     align-items: center;
-}
 
-/* Imagem */
+}
 
 img {
     height: 472px;
@@ -134,20 +138,17 @@ img {
     border-radius: 16px;
 }
 
-
-/* Footer */
-
 .rodape {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: blueviolet;
-    color: black;
-    height: 32px;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+    height: 4vh;
 }
 
 .texto-rodape {
-    font-family: "Krona One", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+    font-family: var(--font-family-primaria);
+    font-weight: var(--font-weight-primaria);
+    font-size: var(--font-size-terciaria);
 }
