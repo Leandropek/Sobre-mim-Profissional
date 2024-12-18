@@ -28,20 +28,21 @@ body {
 }
 
 .cabecalho{
-    padding: 1vh 0 0 100px;
+    height: 4vh;
+    margin: 0 100px;
 }
 
 .cabecalho-menu {
     display: flex;
+    flex-direction: row;
     gap: 40px;
 }
 
 .cabecalho-menu-link {
     font-family: var(--font-family-secundaria);
-    font-weight: var(--font-weight-primaria);
+    font-weight: var(--font-weight-primaria);    
     font-size: var(--font-size-secundaria);
     color: var(--cor-terciaria);
-
     text-decoration: none;
 }
 
@@ -99,19 +100,19 @@ strong {
 }
 
 .botao {
+    font-family: var(--font-family-secundaria);
+    font-weight: var(--font-weight-secundaria);
+    border: 2px solid var(--cor-terciaria);
+    color: var(--cor-secundaria);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 5px;
-    border: 2px solid var(--cor-terciaria);
+    gap: 5px;    
     width: 200px;
-    padding: 10px 0;
-    color: var(--cor-secundaria);    
+    padding: 10px 0;        
     text-decoration: none;
-    text-align: center; 
-    font-family: var(--font-family-secundaria);
-    font-weight: var(--font-weight-secundaria);
+    text-align: center;    
     border-radius: 8px;
 }
 
@@ -129,7 +130,6 @@ strong {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
 }
 
 img {
@@ -139,12 +139,12 @@ img {
 }
 
 .rodape {
+    height: 4vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--cor-terciaria);
-    color: var(--cor-primaria);
-    height: 4vh;
+    color: var(--cor-primaria);    
 }
 
 .texto-rodape {
