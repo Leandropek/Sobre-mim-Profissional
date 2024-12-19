@@ -176,4 +176,10 @@ img {
         margin-bottom: 20px;
     }
 
+    img {
+        margin: auto;
+        height: 70%;
+        width: 70%;
+    }
+
 }
