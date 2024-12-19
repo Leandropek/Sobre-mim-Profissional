@@ -111,8 +111,7 @@ strong {
     align-items: center;
     justify-content: center;
     gap: .25rem;
-    width: 150px;    
-
+    width: 150px;
     padding: .5rem 0;        
     text-decoration: none;
     text-align: center;    
@@ -135,7 +134,7 @@ strong {
     align-items: center;
 }
 
-img {
+.direita-tela img {
     height: 100%;
     width: 100%;
     border-radius: 1rem;
@@ -176,10 +175,15 @@ img {
         margin-bottom: 20px;
     }
 
-    img {
+    .direita-tela img {
         margin: auto;
         height: 70%;
         width: 70%;
+    }
+
+    .botao {
+        align-items: center;
+        justify-content: center;
     }
 
 }
